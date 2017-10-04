@@ -60,12 +60,12 @@ public class SuperbleRoot extends Superble{
 
 			driver.findElement(By.xpath(".//*[@id='email']")).click();
 			driver.findElement(By.xpath(".//*[@id='email']")).clear();
-			driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("aristokittle@gmail.com");
+			driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("");
 
 
 			driver.findElement(By.xpath(".//*[@id='pass']")).click();
 			driver.findElement(By.xpath(".//*[@id='pass']")).clear();
-			driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("spassw0rd");
+			driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("");
 
 			driver.findElement(By.xpath(".//*[@id='u_0_0']")).click();
 			driver.switchTo().window(currWin);
