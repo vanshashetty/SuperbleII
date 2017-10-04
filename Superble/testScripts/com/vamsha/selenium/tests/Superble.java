@@ -39,7 +39,6 @@ public class Superble{
 		try{
 
 		driver.get(URL);
-		//driver.get("http://vanshashetty@yahoo.com:spassw0rd@staging.superble.com");
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
